@@ -1,0 +1,67 @@
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	background:green;
+}
+.navbar a{
+	color: white;
+}
+.navbar-toggle{
+	background-color: white;
+	border: none;
+}
+.navbar-toggle .icon-bar{
+	background-color: green;
+}
+
+body{
+    background-color: #dee0e3;
+}
+.heading{
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h1{
+    font-size: 50px;
+    color: #36455c;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 50px;
+}
+.About{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.About img{
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+}
+.content{
+    padding: 35px;
+}
+.content h2{
+    color: #36455c;
+    font-size: 24px;
+    margin: 15px 0px;
+}
+.content p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+footer{
+    background-color: green;
+    color:white;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
